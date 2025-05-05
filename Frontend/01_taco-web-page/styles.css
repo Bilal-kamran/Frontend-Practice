@@ -46,3 +46,8 @@ th, td, caption {
 .thick-text {
   font-weight: 800;
 }
+
+textarea {
+  min-height: 100px;
+  min-width: 200px;
+}
