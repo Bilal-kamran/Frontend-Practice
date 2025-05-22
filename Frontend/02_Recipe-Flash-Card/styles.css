@@ -13,7 +13,7 @@ html {
 body {
   margin: 1.5rem;
   padding: 1em;
-  text-align: justify;
+  text-align: center;
   background-color: #F1DAC4;
   color: #393B5C;
   min-height: 100%;
@@ -21,13 +21,29 @@ body {
 
 h1 {
   color: #0D0C1D;
+  margin: 1.5rem;
 }
 
 h2 {
   color: #161B33;
+  margin: 1.5rem;
 }
 
 .tips {
   color: #4a2d57;
   font-size: 0.9rem;
+}
+
+li {
+  list-style: inside;
+  border-top: 1px solid rgba(51, 51, 51, 0.3);
+  border-left: 1px solid rgba(51, 51, 51, 0.3);
+  border-right: 1px solid rgba(51, 51, 51, 0.3);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+li:last-of-type {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  border-radius: 0.5rem;
 }
